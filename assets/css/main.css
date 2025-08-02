@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
+		background-color: #000000;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -2181,8 +2181,8 @@ input, select, textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
-		background: rgba(255, 255, 255, 0.025);
+			border-color: #333333;
+			background: #000000;
 		border-radius: 5px;
 		border: none;
 		border: solid 2px rgba(255, 255, 255, 0.125);
@@ -2284,8 +2284,8 @@ input, select, textarea {
 				font-style: normal;
 				font-variant: normal;
 				text-rendering: auto;
-				line-height: 1;
-				text-transform: none !important;
+			color: #000000;
+			border-color: #000000;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
@@ -2715,7 +2715,7 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
-		ul.pagination li {
+					background-color: #000000;
 			display: inline-block;
 			padding-left: 0;
 			vertical-align: middle;
@@ -2882,10 +2882,10 @@ input, select, textarea {
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: rgba(255, 255, 255, 0.025);
+			background-color: #000000;
+				background-color: #333333;
+				background-color: #333333;
+				color: #333333;
 		}
 
 		input[type="submit"]:active,
@@ -2974,7 +2974,7 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 480px) {
+			background-color: #000000;
 
 			input[type="submit"],
 			input[type="reset"],
@@ -3250,7 +3250,7 @@ input, select, textarea {
 		-webkit-transition: opacity 0.35s ease, visibility 0.35s;
 		-ms-transition: opacity 0.35s ease, visibility 0.35s;
 		transition: opacity 0.35s ease, visibility 0.35s;
-		-moz-user-select: none;
+			background: #000000;
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
@@ -3306,7 +3306,7 @@ input, select, textarea {
 			right: 0;
 			text-align: center;
 			text-indent: 4em;
-			top: 0;
+						background: #333333;
 			width: 4em;
 		}
 
@@ -3434,7 +3434,7 @@ input, select, textarea {
 
 		#banner p {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
+				background-color: #000000;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
 			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
 			-moz-transform: translateX(0);
@@ -3543,51 +3543,55 @@ input, select, textarea {
 
 /* Wrapper */
 
-	#wrapper > header {
-		padding: 11em 0 2.25em 0 ;
+			background-color: #000000;
+		background-color: #000000;
 	}
 
-		#wrapper > header .inner {
-			margin: 0 auto;
+			box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+			box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			width: 55em;
 		}
 
-		#wrapper > header h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-			font-size: 2em;
-			margin-bottom: 0.8em;
-			padding-bottom: 0.4em;
+			background-color: #000000;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+			background-color: #000000;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+
+			background-color: #333333;
+				box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+				box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+			background-color: #333333;
+				box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+				box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+			background-color: #333333;
 		}
 
-		#wrapper > header p {
-			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
-			font-weight: 200;
-			letter-spacing: 0.1em;
-			line-height: 2;
-			text-transform: uppercase;
-		}
+				box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
 
-	@media screen and (max-width: 1280px) {
+				box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+			background-color: #000000;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+				background-color: #333333;
+					box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+					box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+				background-color: #000000;
+					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 
-		#wrapper > header {
-			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
-			margin-bottom: -6.5em;
-		}
+				background-color: #000000;
 
-	}
+					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 
-	@media screen and (max-width: 980px) {
-
-		#wrapper > header {
-			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
-			margin-bottom: -4.75em;
+					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+				background-color: #000000;
+					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+				background-color: #000000;
+					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 		}
 
 			#wrapper > header .inner {
@@ -4025,7 +4029,7 @@ input, select, textarea {
 		}
 
 		#footer .inner .contact {
-			width: calc(50% - 1.5em);
+			background-color: #000000;
 		}
 
 		#footer .inner .copyright {
